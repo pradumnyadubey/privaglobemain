@@ -154,7 +154,7 @@ nav{display:none}
 <body>
 <header><div class="w nav">
 <a class="brand" href="#top" aria-label="PrivaGlobe home"><img src="/assets/logo.png" alt="PrivaGlobe - Data Privacy Solutions" width="200" height="54"></a>
-<nav><a href="#regs">Regulations</a><a href="#services">Services</a><a href="/dpdp-compliance-consultant-india/">DPDP</a><a href="/gdpr-consulting/">GDPR</a><a href="/dpo-as-a-service-india/">DPO service</a><a href="#analytics">Dashboard</a><a href="#tour">Product tour</a><a class="btn" href="#contact">Talk to an expert</a></nav>
+<nav aria-label="Main"><a href="/">Home</a><div class="dd"><button class="ddb" type="button" aria-expanded="false" aria-haspopup="true">Regulations</button><div class="ddm"><a href="/dpdp-compliance-consultant-india/">DPDP (India)</a><a href="/gdpr-consulting/">GDPR (Europe)</a><a href="/ccpa-cpra-compliance-consulting/">CCPA / CPRA (US)</a><a href="/saudi-pdpl-compliance-consulting/">PDPL (Saudi Arabia)</a></div></div><div class="dd"><button class="ddb" type="button" aria-expanded="false" aria-haspopup="true">Services</button><div class="ddm"><a href="/dpo-as-a-service-india/">DPO as a Service</a><a href="/privacy-management-software-india/">Privacy software</a><a href="/#tour">Product tour</a><a href="/#services">All services</a></div></div><div class="dd"><button class="ddb" type="button" aria-expanded="false" aria-haspopup="true">Industries</button><div class="ddm"><a href="/healthcare-data-privacy-consulting-india/">Healthcare and pharma</a><a href="/bfsi-data-privacy-consulting-india/">BFSI and fintech</a></div></div><a class="btn" href="/#contact">Talk to an expert</a></nav>
 <button class="menu" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
 </div></header>
 <script>(function(){var n=document.querySelector('.nav'),m=n&&n.querySelector('.menu');if(!m)return;function set(o){n.classList.toggle('open',o);m.setAttribute('aria-expanded',o);m.setAttribute('aria-label',o?'Close menu':'Open menu');m.innerHTML=o?'&times;':'&#9776;'}m.addEventListener('click',function(){set(!n.classList.contains('open'))});n.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){set(false)})});})();</script>
@@ -323,5 +323,6 @@ fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'applicatio
 .then(function(){b.textContent=label;b.disabled=false})});})();
 
 </script>
+<script src="/assets/nav.js" defer></script>
 </body>
 </html>
