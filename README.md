@@ -22,3 +22,6 @@ DNS can take from a few minutes to 24 hours to propagate. Confirm the A record I
 - Connect the contact form (it currently only shows a confirmation message), for example with Formspree.
 - Replace the Facebook, Instagram and LinkedIn links with your company page URLs.
 - Replace sample dashboard figures with real information when available.
+
+## Security
+See `SECURITY-AUDIT.md` for the audit, fixes applied, and the manual steps still open (Web3Forms domain restriction, Cloudflare headers, GitHub account hardening).
