@@ -19,8 +19,8 @@ Static site for www.privaglobe.com, hosted on GitHub Pages.
 DNS can take from a few minutes to 24 hours to propagate. Confirm the A record IPs against GitHub's current documentation before saving.
 
 ## Before launch
-- Connect the contact form (it currently only shows a confirmation message), for example with Formspree.
-- Replace the Facebook, Instagram and LinkedIn links with your company page URLs.
+- The contact form posts to Web3Forms. Restrict its access key to www.privaglobe.com in the Web3Forms dashboard.
+- Add a Facebook link only once a company page exists.
 - Replace sample dashboard figures with real information when available.
 
 ## Security
