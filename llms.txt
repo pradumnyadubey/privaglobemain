@@ -1,0 +1,28 @@
+# PrivaGlobe
+
+> PrivaGlobe is a data privacy consultancy based in Mumbai, India. We provide consulting, implementation, documentation, audits, DPO as a Service and privacy software for India's DPDP Act, the EU and UK GDPR, US CCPA/CPRA, the PDPA of Singapore, Malaysia and Thailand, and Saudi Arabia's PDPL. Contact: contact@privaglobe.com, +91 70210 17952.
+
+Guidance pages show a "Last reviewed" date. Key DPDP dates: Rules notified 13 November 2025; consent manager framework starts 13 November 2026; main obligations and penalties apply from 13 May 2027.
+
+## Services and laws
+- [DPDP compliance consultant in India](https://www.privaglobe.com/dpdp-compliance-consultant-india/): obligations, dates, penalties and how we help with India's DPDP Act
+- [GDPR consulting](https://www.privaglobe.com/gdpr-consulting/): scope, lawful basis, transfers, EU representatives, fines
+- [DPO as a Service](https://www.privaglobe.com/dpo-as-a-service-india/): when a DPO is required and how an outsourced DPO works
+- [CCPA and CPRA compliance](https://www.privaglobe.com/ccpa-cpra-compliance-consulting/): thresholds, consumer rights, opt-outs, penalties
+- [PDPA: Singapore, Malaysia, Thailand](https://www.privaglobe.com/pdpa-compliance-singapore-malaysia-thailand/): three laws compared
+- [Saudi PDPL compliance](https://www.privaglobe.com/saudi-pdpl-compliance-consulting/): controller duties, transfers, penalties
+- [Privacy management software](https://www.privaglobe.com/privacy-management-software-india/): consent, rights requests, data mapping, DPIAs, breach tracking
+
+## Industries
+- [Healthcare and pharma privacy](https://www.privaglobe.com/healthcare-data-privacy-consulting-india/)
+- [BFSI and fintech privacy](https://www.privaglobe.com/bfsi-data-privacy-consulting-india/)
+
+## Guides
+- [Privacy resources hub](https://www.privaglobe.com/resources/)
+- [DPDP readiness checklist](https://www.privaglobe.com/resources/dpdp-readiness-checklist/)
+- [DPDP vs GDPR comparison](https://www.privaglobe.com/resources/dpdp-vs-gdpr/)
+- [Data privacy glossary](https://www.privaglobe.com/resources/data-privacy-glossary/)
+
+## Company
+- [About PrivaGlobe](https://www.privaglobe.com/about/)
+- [Privacy policy](https://www.privaglobe.com/privacy-policy.html)
