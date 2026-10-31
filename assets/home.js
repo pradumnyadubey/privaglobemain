@@ -11,9 +11,12 @@ show(0);
 var TT=["Management dashboard","DSAR workflow","Data inventory","Data discovery","Consulting report"],tt=document.getElementById('tt'),P=document.querySelectorAll('#tour .pn');
 TT.forEach(function(n,i){var b=document.createElement('button');b.textContent=n;b.setAttribute('role','tab');b.onclick=function(){P.forEach(function(p,j){p.classList.toggle('on',i==j)});[].forEach.call(tt.children,function(x,j){x.setAttribute('aria-selected',i==j)})};tt.appendChild(b)});tt.children[0].click();
 
-(function(){var f=document.getElementById('contact-form');if(!f)return;var b=f.querySelector('button[type="submit"]'),s=document.getElementById('form-status');
+(function(){var f=document.getElementById('contact-form');if(!f)return;var b=f.querySelector('button[type="submit"]'),s=document.getElementById('form-status'),last=0;
 f.addEventListener('submit',function(e){e.preventDefault();
 if(!f.reportValidity()){return}
+var hp=f.querySelector('input[name="botcheck"]');if(hp&&hp.checked){return}
+var now=Date.now();if(last&&now-last<30000){s.style.color='#FFB4C0';s.textContent='Please wait a few seconds before sending another request.';return}
+last=now;
 var label=b.textContent;b.textContent='Sending...';b.disabled=true;s.style.color='#D9D3F5';s.textContent='';
 fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
 .then(function(r){return r.json().then(function(d){return{ok:r.ok&&d.success!==false,d:d}})})

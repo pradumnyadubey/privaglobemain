@@ -29,3 +29,20 @@ Status key: FIXED = applied by `fix_security.py` / new files. MANUAL = cannot be
 ## Notes on the CSP
 - `style-src` still allows `'unsafe-inline'` because the home page has a large inline `<style>` block and many `style=""` attributes. Risk is low (CSS cannot execute code); moving it to a file is a later cleanup.
 - JSON-LD `<script type="application/ld+json">` blocks are data, not executed, so they are unaffected.
+
+## Follow-up audit (31 Oct 2026)
+
+Scope: full Git history (29 commits), all tracked files, deploy workflow.
+
+| # | Severity | Finding | Status |
+|---|----------|---------|--------|
+| 16 | Medium | The deploy workflow published the whole repository (`path: '.'`), so `SECURITY-AUDIT.md` and `README.md` were publicly downloadable from the live site. | FIXED: workflow now stages only site files into `_site` (excludes `*.md`, `.git`, `.github`, `.gitignore`) |
+| 17 | Low | Four stray 1-byte files named `A` (assets/, dpdp-..., dpo-..., gdpr-...) were being published. | FIXED: removed |
+| 18 | Low | No `.gitignore`, so a future `.env`, key or database file could be committed by accident. | FIXED: added |
+| 19 | Low | GitHub Actions versions were not kept up to date automatically. | FIXED: `.github/dependabot.yml` added (weekly) |
+| 20 | Low | CSP did not block framing of other content or force HTTPS for sub-resources. | FIXED: `frame-src 'none'; upgrade-insecure-requests` added on all 18 pages |
+| 21 | Low | Contact form could be double-submitted quickly and did not stop on the honeypot client-side. | FIXED: 30 s client-side cooldown and honeypot check in `assets/home.js` (real rate limiting must be done in Web3Forms, see #2) |
+| 22 | Info | Git history scanned for private keys, tokens, `.env`, database and key files: none found. The only credential-like value is the Web3Forms access key, which is public by design. | CLEAN |
+| 23 | Info | No backend, database, login, admin area, passwords or package dependencies exist, so those controls do not apply. | N/A |
+
+Still manual (cannot be done in code on GitHub Pages): restrict the Web3Forms key to www.privaglobe.com and turn on its spam/captcha filter; put Cloudflare (free) in front for HSTS, X-Frame-Options / frame-ancestors, X-Content-Type-Options and Permissions-Policy headers; enable 2FA on the GitHub account; protect `main` (require pull requests, block force-push); tick Enforce HTTPS in Pages settings.
