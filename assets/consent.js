@@ -1,4 +1,4 @@
-/* Cookie consent + Google Analytics 4. Analytics loads ONLY after the visitor accepts. */
+/* Cookie consent + Google Analytics 4. The tag is always on the page but stores no cookies until the visitor accepts (Google Consent Mode). */
 (function () {
   var ID = 'G-EJJ73RSSZY', KEY = 'pg_consent', loaded = false;
   window.dataLayer = window.dataLayer || [];
@@ -9,18 +9,14 @@
   function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
 
+  gtag('js', new Date());
+  gtag('config', ID);
   function loadGA() {
-    if (loaded) return; loaded = true;
     gtag('consent', 'update', { analytics_storage: 'granted' });
-    var s = document.createElement('script');
-    s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
-    document.head.appendChild(s);
-    gtag('js', new Date());
-    gtag('config', ID);
   }
   function revoke() {
     gtag('consent', 'update', { analytics_storage: 'denied' });
-    window['ga-disable-' + ID] = true;
+    
     document.cookie.split(';').forEach(function (c) {
       var n = c.split('=')[0].trim();
       if (n.indexOf('_ga') === 0) {
