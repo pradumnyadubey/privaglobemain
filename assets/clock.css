@@ -1,0 +1,22 @@
+/* DPDP clock, ISO seals, consent checkbox. Loaded after glass.css. */
+.clock{padding:30px 0 0}
+.clk{text-align:center;padding:30px 22px 34px;border-radius:28px;background:linear-gradient(135deg,rgba(255,255,255,.9),rgba(255,255,255,.55));backdrop-filter:blur(24px) saturate(180%);-webkit-backdrop-filter:blur(24px) saturate(180%);border:1px solid #fff;box-shadow:0 20px 60px rgba(79,70,229,.16),inset 0 1px 0 #fff}
+.clk h2{margin:0 0 22px;font-size:clamp(24px,3.6vw,38px);background:linear-gradient(90deg,#4F46E5,#9333EA 55%,#DB2777);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;max-width:560px;margin:0 auto}
+.tile{padding:16px 6px 12px;border-radius:20px;background:linear-gradient(160deg,#4F46E5,#9333EA 60%,#DB2777);color:#fff;box-shadow:0 12px 28px rgba(79,70,229,.3),inset 0 1px 0 rgba(255,255,255,.45)}
+.tile b{display:block;font:800 clamp(26px,5vw,42px)/1 Sora,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:#fff}
+.tile small{display:block;margin-top:8px;font:700 11px/1 Sora,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#fff;opacity:.9}
+
+.std{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.seal{display:grid;justify-items:center;gap:10px;padding:26px 16px 22px;border-radius:22px;background:rgba(255,255,255,.88);border:1px solid #fff;box-shadow:0 14px 40px rgba(79,70,229,.14),inset 0 1px 0 #fff;text-align:center}
+.seal svg{display:block;width:112px;height:112px}
+.seal .tag{font:700 12px/1 Sora,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#4F46E5;padding:7px 14px;border-radius:999px;background:rgba(79,70,229,.1)}
+@media(max-width:640px){.std{grid-template-columns:1fr}.tiles{gap:8px}}
+
+.consent{display:flex;gap:12px;align-items:flex-start;font-size:14.5px;line-height:1.5;cursor:pointer;color:inherit}
+.consent input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.consent .tick{flex:0 0 22px;height:22px;margin-top:1px;border-radius:7px;background:rgba(255,255,255,.9);border:1.5px solid #4F46E5;position:relative}
+.consent input:checked+.tick{background:linear-gradient(135deg,#4F46E5,#9333EA);border-color:transparent}
+.consent input:checked+.tick:after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}
+.consent input:focus-visible+.tick{outline:3px solid #DB2777;outline-offset:2px}
+.consent a{text-decoration:underline}
