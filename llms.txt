@@ -11,6 +11,7 @@ Guidance pages show a "Last reviewed" date. Key DPDP dates: Rules notified 13 No
 - [CCPA and CPRA compliance](https://www.privaglobe.com/ccpa-cpra-compliance-consulting/): thresholds, consumer rights, opt-outs, penalties
 - [PDPA: Singapore, Malaysia, Thailand](https://www.privaglobe.com/pdpa-compliance-singapore-malaysia-thailand/): three laws compared
 - [Saudi PDPL compliance](https://www.privaglobe.com/saudi-pdpl-compliance-consulting/): controller duties, transfers, penalties
+- [DPDP compliance pricing](https://www.privaglobe.com/pricing/): DPDP consulting and implementation starting from ₹50,000 per month
 - [Privacy management software](https://www.privaglobe.com/privacy-management-software-india/): consent, rights requests, data mapping, DPIAs, breach tracking
 
 ## Industries
