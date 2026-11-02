@@ -20,8 +20,3 @@ fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'applicatio
 .then(function(x){if(x.ok){s.style.color='#3DDC97';s.textContent='Thank you. Your request has been sent and our team will reply shortly.';f.reset()}else{throw new Error(x.d&&x.d.message||'failed')}})
 .catch(function(){s.style.color='#FFB4C0';s.textContent='Sorry, your message could not be sent. Please WhatsApp us on +91 70210 17952 or email contact@privaglobe.com.'})
 .then(function(){b.textContent=label;b.disabled=false})});})();
-
-(function(){var d=document.getElementById('clk-d');if(!d)return;var END=Date.parse('2027-05-13T00:00:00+05:30'),h=document.getElementById('clk-h'),m=document.getElementById('clk-m'),s=document.getElementById('clk-s');
-function p(n){return n<10?'0'+n:''+n}
-function tick(){var l=Math.max(0,END-Date.now()),x=Math.floor(l/1000);d.textContent=Math.floor(x/86400);h.textContent=p(Math.floor(x%86400/3600));m.textContent=p(Math.floor(x%3600/60));s.textContent=p(x%60)}
-tick();setInterval(tick,1000)})();
