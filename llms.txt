@@ -19,6 +19,10 @@ Guidance pages show a "Last reviewed" date. Key DPDP dates: Rules notified 13 No
 - [BFSI and fintech privacy](https://www.privaglobe.com/bfsi-data-privacy-consulting-india/)
 
 ## Guides
+- [Free DPDP readiness check](https://www.privaglobe.com/assessment/)
+- [Blog](https://www.privaglobe.com/blog/)
+- [ISO 27001 consulting](https://www.privaglobe.com/iso-27001-consulting-india/)
+- [ISO 27701 privacy information management](https://www.privaglobe.com/iso-27701-privacy-information-management/)
 - [Privacy resources hub](https://www.privaglobe.com/resources/)
 - [DPDP readiness checklist](https://www.privaglobe.com/resources/dpdp-readiness-checklist/)
 - [DPDP vs GDPR comparison](https://www.privaglobe.com/resources/dpdp-vs-gdpr/)
