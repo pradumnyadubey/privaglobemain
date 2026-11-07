@@ -1,6 +1,6 @@
 # PrivaGlobe
 
-> PrivaGlobe is a data privacy consultancy based in Mumbai, India. We provide consulting, implementation, documentation, audits, DPO as a Service and privacy software for India's DPDP Act, the EU and UK GDPR, US CCPA/CPRA, the PDPA of Singapore, Malaysia and Thailand, and Saudi Arabia's PDPL. Contact: contact@privaglobe.com, +91 70210 17952.
+> PrivaGlobe is a data privacy consultancy based in Mumbai, India. We provide consulting, implementation, documentation, audits, DPO as a Service and privacy software for India's DPDP Act, the EU and UK GDPR, US CCPA/CPRA, the PDPA of Singapore, Malaysia and Thailand, and Saudi Arabia's PDPL. Contact: contact@privaglobe.com, +91 82668 99639.
 
 Guidance pages show a "Last reviewed" date. Key DPDP dates: Rules notified 13 November 2025; consent manager framework starts 13 November 2026; main obligations and penalties apply from 13 May 2027.
 

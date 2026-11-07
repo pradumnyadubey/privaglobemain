@@ -18,5 +18,5 @@ var label=b.textContent;b.textContent='Sending...';b.disabled=true;s.style.color
 fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
 .then(function(r){return r.json().then(function(d){return{ok:r.ok&&d.success!==false,d:d}})})
 .then(function(x){if(x.ok){s.style.color='#3DDC97';s.textContent='Thank you. Your request has been sent and our team will reply shortly.';f.reset()}else{throw new Error(x.d&&x.d.message||'failed')}})
-.catch(function(){s.style.color='#FFB4C0';s.textContent='Sorry, your message could not be sent. Please WhatsApp us on +91 70210 17952 or email contact@privaglobe.com.'})
+.catch(function(){s.style.color='#FFB4C0';s.textContent='Sorry, your message could not be sent. Please WhatsApp us on +91 82668 99639 or email contact@privaglobe.com.'})
 .then(function(){b.textContent=label;b.disabled=false})});})();
