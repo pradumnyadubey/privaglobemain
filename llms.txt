@@ -4,30 +4,54 @@
 
 Guidance pages show a "Last reviewed" date. Key DPDP dates: Rules notified 13 November 2025; consent manager framework starts 13 November 2026; main obligations and penalties apply from 13 May 2027.
 
-## Services and laws
-- [DPDP compliance consultant in India](https://www.privaglobe.com/dpdp-compliance-consultant-india/): obligations, dates, penalties and how we help with India's DPDP Act
-- [GDPR consulting](https://www.privaglobe.com/gdpr-consulting/): scope, lawful basis, transfers, EU representatives, fines
-- [DPO as a Service](https://www.privaglobe.com/dpo-as-a-service-india/): when a DPO is required and how an outsourced DPO works
-- [CCPA and CPRA compliance](https://www.privaglobe.com/ccpa-cpra-compliance-consulting/): thresholds, consumer rights, opt-outs, penalties
-- [PDPA: Singapore, Malaysia, Thailand](https://www.privaglobe.com/pdpa-compliance-singapore-malaysia-thailand/): three laws compared
-- [Saudi PDPL compliance](https://www.privaglobe.com/saudi-pdpl-compliance-consulting/): controller duties, transfers, penalties
-- [DPDP compliance pricing](https://www.privaglobe.com/pricing/): DPDP consulting and implementation starting from ₹50,000 per month
-- [Privacy management software](https://www.privaglobe.com/privacy-management-software-india/): consent, rights requests, data mapping, DPIAs, breach tracking
+## Privacy laws by region
+- [DPDP Compliance Consultant in India](https://www.privaglobe.com/dpdp-compliance-consultant-india/): India's DPDP Act and Rules.
+- [GDPR Consulting](https://www.privaglobe.com/gdpr-consulting/): EU and UK GDPR.
+- [CCPA and CPRA Consulting](https://www.privaglobe.com/ccpa-cpra-compliance-consulting/): California consumer rights.
+- [PDPA: Singapore, Malaysia, Thailand](https://www.privaglobe.com/pdpa-compliance-singapore-malaysia-thailand/): Three PDPAs compared.
+- [Saudi PDPL Consulting](https://www.privaglobe.com/saudi-pdpl-compliance-consulting/): SDAIA requirements and transfers.
+
+## Services
+- [DPDP Gap Assessment](https://www.privaglobe.com/dpdp-gap-assessment-india/): Scored gaps and a roadmap.
+- [Privacy Governance, DPIA and Training](https://www.privaglobe.com/privacy-governance-dpia-training-india/): Roles, assessments and training.
+- [Vendor Privacy Risk Management](https://www.privaglobe.com/vendor-privacy-risk-management-india/): Tiering, contracts and reviews.
+- [Data Breach Management](https://www.privaglobe.com/data-breach-management-dpdp/): Playbooks aligned to Rule 7.
+- [DPO as a Service](https://www.privaglobe.com/dpo-as-a-service-india/): An outsourced Data Protection Officer.
+- [ISO 27001 Consulting](https://www.privaglobe.com/iso-27001-consulting-india/): We are not a certification body.
+- [ISO 27701 Consulting](https://www.privaglobe.com/iso-27701-privacy-information-management/): Privacy information management.
+
+## Solutions
+- [Privacy Management Software](https://www.privaglobe.com/privacy-management-software-india/): Consent, requests, mapping, DPIAs, breaches.
+- [Consent Management](https://www.privaglobe.com/consent-management-india/): Notices, records and withdrawal.
+- [Data Discovery and Mapping](https://www.privaglobe.com/data-discovery-mapping-india/): Know where personal data lives.
+- [Product tour](https://www.privaglobe.com/#tour): The screens your team and board will use.
 
 ## Industries
-- [Healthcare and pharma privacy](https://www.privaglobe.com/healthcare-data-privacy-consulting-india/)
-- [BFSI and fintech privacy](https://www.privaglobe.com/bfsi-data-privacy-consulting-india/)
+- [Healthcare and Pharma](https://www.privaglobe.com/healthcare-data-privacy-consulting-india/): Patient, trial and children's data.
+- [BFSI and Fintech](https://www.privaglobe.com/bfsi-data-privacy-consulting-india/): DPDP alongside RBI, IRDAI and SEBI rules.
+- [IT, SaaS and Technology](https://www.privaglobe.com/it-saas-data-privacy-consulting-india/): Processor contracts and due diligence.
+- [E-commerce and Retail](https://www.privaglobe.com/ecommerce-data-privacy-consulting-india/): Consent, retention and partners.
 
-## Guides
-- [Free DPDP readiness check](https://www.privaglobe.com/assessment/)
-- [Blog](https://www.privaglobe.com/blog/)
-- [ISO 27001 consulting](https://www.privaglobe.com/iso-27001-consulting-india/)
-- [ISO 27701 privacy information management](https://www.privaglobe.com/iso-27701-privacy-information-management/)
-- [Privacy resources hub](https://www.privaglobe.com/resources/)
-- [DPDP readiness checklist](https://www.privaglobe.com/resources/dpdp-readiness-checklist/)
-- [DPDP vs GDPR comparison](https://www.privaglobe.com/resources/dpdp-vs-gdpr/)
-- [Data privacy glossary](https://www.privaglobe.com/resources/data-privacy-glossary/)
+## Guides and resources
+- [Data Privacy Resources](https://www.privaglobe.com/resources/): The hub for all guides.
+- [DPDP Executive Guide](https://www.privaglobe.com/resources/dpdp-executive-guide/): A briefing for business leaders.
+- [Free DPDP Readiness Check](https://www.privaglobe.com/assessment/): 12 questions, 5 minutes.
+- [DPDP Readiness Checklist](https://www.privaglobe.com/resources/dpdp-readiness-checklist/): Eight areas to tick off.
+- [DPDP vs GDPR](https://www.privaglobe.com/resources/dpdp-vs-gdpr/): Key differences.
+- [Data Privacy Glossary](https://www.privaglobe.com/resources/data-privacy-glossary/): Plain-language definitions.
+- [Blog](https://www.privaglobe.com/blog/): Practical guides.
+- [Do You Need a DPO Under DPDP?](https://www.privaglobe.com/blog/do-you-need-a-dpo-under-dpdp/): Five-question decision path.
+- [DPDP Rules 2025: What Organisations Need to Know](https://www.privaglobe.com/blog/dpdp-rules-2025-what-organisations-need-to-know/): The DPDP Rules were notified on 13 November 2025. Here is what applies when, and what to do first.
+- [How to Conduct a DPDP Gap Assessment](https://www.privaglobe.com/blog/how-to-conduct-a-dpdp-gap-assessment/): A step-by-step method to find and rank your DPDP gaps before 13 May 2027.
+- [Data Mapping: The First Step Towards DPDP Compliance](https://www.privaglobe.com/blog/data-mapping-the-first-step-towards-dpdp-compliance/): Why every DPDP programme starts with knowing where personal data lives, and how to build a map that stays current.
+- [Data Principal Rights: Organisational Responsibilities](https://www.privaglobe.com/blog/data-principal-rights-organisational-responsibilities/): What the DPDP Act gives individuals and what your organisation has to build to honour it.
+- [Consent Management Under the DPDP Act](https://www.privaglobe.com/blog/consent-management-under-the-dpdp-act/): What valid DPDP consent looks like, how to record it and how to handle withdrawal.
+- [Data Breach Management and Regulatory Responsibilities](https://www.privaglobe.com/blog/data-breach-management-and-regulatory-responsibilities/): What Rule 7 expects after a personal data breach, and how to be ready in the first hour.
+- [Privacy Risk Assessment: A Practical Guide](https://www.privaglobe.com/blog/privacy-risk-assessment-a-practical-guide/): A simple, repeatable way to score privacy risk and decide when to run a full DPIA.
+- [Vendor Risk Management and Data Protection](https://www.privaglobe.com/blog/vendor-risk-management-and-data-protection/): Why you stay accountable for vendor data handling, and how to run a proportionate vendor programme.
+- [Building a Sustainable Data Privacy Governance Framework](https://www.privaglobe.com/blog/building-a-sustainable-data-privacy-governance-framework/): Roles, policies, reviews and reporting that keep privacy compliance alive after the project ends.
 
 ## Company
 - [About PrivaGlobe](https://www.privaglobe.com/about/)
+- [Our expertise and approach](https://www.privaglobe.com/expertise/)
 - [Privacy policy](https://www.privaglobe.com/privacy-policy.html)
