@@ -24,4 +24,4 @@ DNS can take from a few minutes to 24 hours to propagate. Confirm the A record I
 - Replace sample dashboard figures with real information when available.
 
 ## Security
-See `SECURITY-AUDIT.md` for the audit, fixes applied, and the manual steps still open (Web3Forms domain restriction, Cloudflare headers, GitHub account hardening).
+The security audit is kept privately (not in this public repo). Open manual steps:  (Web3Forms domain restriction, Cloudflare headers, GitHub account hardening).
